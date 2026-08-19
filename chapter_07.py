@@ -62,14 +62,38 @@
 
 
 # Problem no.7
-n=int(input("Enter a number :"))
-if(n<=0):
-    print("please enter a natural number")
-for i in range(1,n+1):
-        # star=2*i+1
-        # print(" "*(n-i),end="")
-        # print("*"*(2*i-1),end="")
-        # print("\n")
-        print(" "*(n-i),end="")
-        print("*"*(2*i-1),end="")
-        print("\n")
+# n=int(input("Enter a number :"))
+# if(n<=0):
+#     print("please enter a natural number")
+# for i in range(1,n+1):
+#         # star=2*i+1
+#         # print(" "*(n-i),end="")
+#         # print("*"*(2*i-1),end="")
+#         # print("\n")
+#         print(" "*(n-i),end="")
+#         print("*"*(2*i-1),end="")
+#         print("\n")
+
+
+# Problem no.8
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print("*"*i,end="")
+#     print("\n")
+
+# Problem no.9
+# n=int(input("Enter a number "))
+# for i in range(1,n+1):
+#     if(i==1 or i==3):
+#         print("*"*n,end="")
+#     else:
+#         print("*",end="")
+#         print(" "*(n-2),end="")
+#         print("*",end="")
+#     print("")
+
+
+# Problem no.10
+# n=int(input("Enter a number :"))
+# for i in range(1,11):
+#     print(f"{n}x{11-i}={n*(11-i)}")
