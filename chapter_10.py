@@ -55,11 +55,35 @@
 
 # problem no.5
 
+# from random import randint
+# class train:
+#     def __init__(self,trainNo):
+#         self.trainNo=trainNo
+#     def book(self,fro,to):
+#         print(f"Your ticked is in train no. {self.trainNo} from {fro} to {to}")
+#     def getstatus(self):
+#         print(f"train no. {self.trainNo} is running on time")
+#     def getfare(self,fro,to):
+#         print(f"Your ticket fare from {fro} to {to} is {randint(150,790)}")
+
+# t=train(12592)
+# t.book("Chhapra","Kolkatta")
+# t.getstatus()
+# t.getfare("Chhapra","Kolkatta")
+
+# Problem no.6
 from random import randint
 class train:
-    def book(self,trainNo,fro,to):
-        print(f"Your ticked is in train no{trainNo} from {fro} to {to}")
-    def getstatus(self,trainNo):
-        print(f"train no {trainNo} is running on time")
-    def getfare(self,trainNo,fro,to):
+    def __init__(slf,trainNo): # changing self to slf
+        slf.trainNo=trainNo
+    def book(harry,fro,to): #change self to harry
+        print(f"Your ticked is in train no. {harry.trainNo} from {fro} to {to}")
+    def getstatus(self):
+        print(f"train no. {self.trainNo} is running on time")
+    def getfare(self,fro,to):
         print(f"Your ticket fare from {fro} to {to} is {randint(150,790)}")
+
+t=train(12592)
+t.book("Chhapra","Kolkatta")
+t.getstatus()
+t.getfare("Chhapra","Kolkatta")
