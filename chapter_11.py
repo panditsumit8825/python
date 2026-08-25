@@ -63,3 +63,65 @@
 # print(c1 + c2)
 
 # Problem no.5
+# class vector:
+#     def __init__(self,x,y,z):
+#         self.x=x
+#         self.y=y
+#         self.z=z
+#     def __add__(self, other):
+#         result=vector(self.x+other.x,self.y+other.y,self.z+other.z)
+#         return result
+
+#     def __mul__(self, other):
+#             result=self.x*other.x+self.y*other.y+self.z*other.z
+#             return result
+
+#     def __str__(self):
+#         return f"vector({self.x},{self.y},{self.z})"
+
+# v1=vector(1,2,3)
+# v2=vector(4,5,6)
+# v3=vector(7,8,9)
+
+# print(v1+v2)
+# print(v1*v2)
+
+# print(v1+v3)
+# print(v1*v3)
+
+# Problem no.6
+# class vector:
+#     def __init__(self,x,y,z):
+#         self.x=x
+#         self.y=y
+#         self.z=z
+#     def __add__(self, other):
+#         result=vector(self.x+other.x,self.y+other.y,self.z+other.z)
+#         return result
+
+#     def __mul__(self, other):
+#             result=self.x*other.x+self.y*other.y+self.z*other.z
+#             return result
+
+#     def __str__(self):
+#         return f"({self.x}i+{self.y}j+{self.z}k)"
+
+# v1=vector(1,2,3)
+# v2=vector(4,5,6)
+# v3=vector(7,8,9)
+
+# print(v1+v2)
+# print(v1*v2)
+
+# print(v1+v3)
+# print(v1*v3)
+
+# Problem no.7
+class vector:
+    def __init__(self,l):
+        self.l=l
+
+    def __len__(self):
+        return len(self.l)
+v1=vector([1,2,3])
+print(len(v1))
