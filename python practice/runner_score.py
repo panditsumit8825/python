@@ -11,10 +11,17 @@
 # print(second)
 # total=sum(score)
 # print(total)
-def factorial(n):
-    if n == 0:  # Base case
-        return 1
-    else:       # Recursive case
-        return n * factorial(n - 1)
+def tail_fact(n, acc=1):
+    if n == 0:
+        return acc
+    else:
+        return tail_fact(n-1, acc * n)
 
-print(factorial(5))
+def nontail_fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n * nontail_fact(n-1)
+        
+print(tail_fact(5))  
+print(nontail_fact(5))
