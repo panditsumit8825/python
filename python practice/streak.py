@@ -20,6 +20,20 @@
 # print(list(range(4,30,2)))
 
 # largest element in list
-x = [4, 6, 8, 24, 12, 2]
-lagest=max(x)
-print(lagest)
+# x = [4, 6, 8, 24, 12, 2]
+# lagest=max(x)
+# print(lagest)
+
+# functing using key or positional argument
+# str1=input("Enter animal type :")
+# str2=input("Enter animal name :")
+# def describe_pet(animal_type,animal_name):
+#     print(animal_type,animal_name)
+# describe_pet("hamster","Harry")
+# describe_pet(str1,str2)
+
+# uses of**kwargs
+# def print_info(**kwargs):
+#     print(kwargs)
+# print_info(name="Alice",age=30,city="New York")
+
