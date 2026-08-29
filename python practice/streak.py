@@ -78,3 +78,9 @@
 #     count += 1
 
 # print("Length of set:", count)
+
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5, 6}
+
+result = set_a.intersection(set_b)
+print("Intersection:", result)
