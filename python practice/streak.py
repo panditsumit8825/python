@@ -57,8 +57,24 @@
 # print(count_evens([2, 1, 2, 3, 4]))  # Expected output: 3
 # print(count_evens([2, 2, 0]))        # Expected output: 3
 # print(count_evens([1, 3, 5])) 
-colors = {"red", "green", "blue"}
-print("Before clear:", colors)
+# colors = {"red", "green", "blue"}
+# print("Before clear:", colors)
 
-colors.clear()
-print("After clear:", colors)      
+# colors.clear()
+# print("After clear:", colors)   
+
+# animals = {"cat", "dog", "bird", "fish"}
+
+# count = 0
+# for _ in animals:
+#     count += 1
+
+# print("Length of set:", count)
+
+# animals = {"cat", "dog", "bird", "fish"}
+
+# count = 0
+# for _ in animals:
+#     count += 1
+
+# print("Length of set:", count)
