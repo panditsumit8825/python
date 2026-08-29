@@ -37,3 +37,23 @@
 #     print(kwargs)
 # print_info(name="Alice",age=30,city="New York")
 
+# def find_number(arr,k):
+#     for i in arr:
+#         if(i==k):
+#             return "Yes"
+#     return "No"
+# num=[1,2,5,8,3,6,9]
+# print(find_number(num,3))
+
+# def find_num(arr, k):
+#     if k in arr:
+#         print("Yes")
+#     else:
+#         print("No")
+
+# num = [3, 6, 1, 8, 9, 7, 2]
+# find_num(num, 9)
+
+print(count_evens([2, 1, 2, 3, 4]))  # Expected output: 3
+print(count_evens([2, 2, 0]))        # Expected output: 3
+print(count_evens([1, 3, 5]))       
