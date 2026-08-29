@@ -54,6 +54,11 @@
 # num = [3, 6, 1, 8, 9, 7, 2]
 # find_num(num, 9)
 
-print(count_evens([2, 1, 2, 3, 4]))  # Expected output: 3
-print(count_evens([2, 2, 0]))        # Expected output: 3
-print(count_evens([1, 3, 5]))       
+# print(count_evens([2, 1, 2, 3, 4]))  # Expected output: 3
+# print(count_evens([2, 2, 0]))        # Expected output: 3
+# print(count_evens([1, 3, 5])) 
+colors = {"red", "green", "blue"}
+print("Before clear:", colors)
+
+colors.clear()
+print("After clear:", colors)      
