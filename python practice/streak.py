@@ -95,8 +95,8 @@ def sequential_search(arr, target):
     return -1  # Target not found after checking the entire list
 
 # Example usage:
-numbers = [10, 50, 30, 70, 80, 20, 90, 40]
-target_value = 90
+numbers = [10, 50, 30, 70, 80, 20, 90, 40,100,76,97,66]
+target_value = 76
 
 result = sequential_search(numbers, target_value)
 print(f"Element found at index: {result}")  # Output: Element found at index: 2
