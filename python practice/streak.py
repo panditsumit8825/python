@@ -82,5 +82,5 @@
 set_a = {1, 2, 3, 4}
 set_b = {3, 9, 8, 6}
 
-result = set_a.intersection(set_b)
-print("Intersection:", result)
+sum = set_a.intersection(set_b)
+print("Intersection:", sum)
