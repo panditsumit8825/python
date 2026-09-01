@@ -79,8 +79,24 @@
 
 # print("Length of set:", count)
 
-set_a = {1, 2, 3, 4}
-set_b = {3, 9, 8, 6}
+# set_a = {1, 2, 3, 4}
+# set_b = {3, 9, 8, 6}
 
-result = set_a.intersection(set_b)
-print("Intersection:", result)
+# result = set_a.intersection(set_b)
+# print("Intersection:", result)
+
+
+def sequential_search(arr, target):
+    # Iterate through the index and value of each item in the list
+    for index in range(len(arr)):
+        if arr[index] == target:
+            return index  # Target found, return its position
+            
+    return -1  # Target not found after checking the entire list
+
+# Example usage:
+numbers = [10, 50, 30, 70, 80, 20, 90, 40]
+target_value = 90
+
+result = sequential_search(numbers, target_value)
+print(f"Element found at index: {result}")  # Output: Element found at index: 2
